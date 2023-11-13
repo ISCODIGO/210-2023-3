@@ -1,0 +1,5 @@
+# JavaFX
+
+## Application
+- start()
+- main()
