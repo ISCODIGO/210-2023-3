@@ -27,7 +27,7 @@ public class LoginController {
 
     @FXML public void entrarClick() throws IOException {
         if (usuario.getText().equals("admin") && clave.getText().equals("1234")) {
-            cambiarScene("calculadora-view.fxml");
+            cambiarScene("bind-view.fxml");
         } else {
             Alert alerta = new Alert(Alert.AlertType.ERROR);
             alerta.setTitle("No pudo ingresar");
